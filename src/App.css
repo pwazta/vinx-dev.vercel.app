@@ -1,0 +1,22 @@
+/* Only for basic global CSS */
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./Font/RobotoMono-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;;
+  background-color: #e4e8e6;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-shadow: 3px 4px #b3c0bc;
+}
+
+section, article {
+  scroll-margin-top: 60px;
+}
