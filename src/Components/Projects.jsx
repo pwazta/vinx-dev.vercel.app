@@ -23,6 +23,8 @@ export default function Projects() {
       images: [
         {src: "/EoL_1.png", alt: "East of Loving Gameplay 1", caption: "Gameplay 1"},
         {src: "/EoL_2.png", alt: "East of Loving Gameplay 2", caption: "Gameplay 2"},
+        {src: "/3DVis_Library_Wireframe_1.jpg", alt: "Wireframe 1", caption: "Wireframe 1"},
+        {src: "/3DVis_Library_Wireframe_2.jpg", alt: "Wireframe 2", caption: "Wireframe 2"}
       ],
       toggle: true,
       description: `A comedy-driven topdown game built in Unity using C# featuring turn-based PVE combat, smart inventory and dynamic item /

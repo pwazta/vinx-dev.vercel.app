@@ -42,6 +42,12 @@ const AnimatedText = styled.h2`
   animation: 
     ${typing} 2s steps(30, end) forwards,
     ${cursor} 0.6s step-end infinite alternate;
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+    padding-right: 3px;
+    white-space: normal;
+  }
 `;
 
 export default function HeroSection() {
@@ -55,7 +61,7 @@ export default function HeroSection() {
       <section className="d-flex flex-column justify-content-center align-items-center text-center">
         <div style={{"zIndex": "1"}}>
           <h1 style={{"fontSize": "3.5rem" }}><strong>Hi, I'm Vincent!</strong></h1>
-          <AnimatedText className="text-muted fs-4 fst-italic">Student, Developer, and 3D Modeller</AnimatedText>
+          <AnimatedText className="text-muted fst-italic">Student, Developer, and 3D Modeller</AnimatedText>
           <ScrollCue className="fs-2 mt-1" aria-label="Scroll to next section" onClick={handleScroll}>
             <FaArrowDown/>
           </ScrollCue>
